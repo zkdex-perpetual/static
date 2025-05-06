@@ -1,11 +1,16 @@
-# WARNING
+# ⚠️ Notes
 
-## This project can only `add` resources but not `delete` them!
+## This project only allows **new** resources, not **delete** resources!
 
 ### Example
 
-`https://cdn.jsdelivr.net/npm/[project]@[version][path][file]`
+- Use the CDN address of the npm package:
+```text
+https://cdn.jsdelivr.net/npm/[project]@[version][path][file]
+```
+- Use static resources from the GitHub repository:
+```text
+https://cdn.jsdelivr.net/gh/zkdex-perpetual/static@0.0.1/styles/reset.css
+```
 
-`https://cdn.jsdelivr.net/gh/zkdex-perpetual/static@0.0.1/styles/reset.css`
-
-> Do not easily delete the Releases version.
+> **Important**: Do not easily delete the released version resources (Releases).
