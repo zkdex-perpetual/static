@@ -1,0 +1,36 @@
+/* font */
+@font-face {
+  font-family: 'HarmonyOS Sans';
+  src: url('https://cdn.jsdelivr.net/npm//fonts/HarmonyOS_Sans_Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'HarmonyOS Sans';
+  src: url('https://cdn.jsdelivr.net/npm//fonts/HarmonyOS_Sans_Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'HarmonyOS Sans';
+  src: url('https://cdn.jsdelivr.net/npm//fonts/HarmonyOS_Sans_Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'HarmonyOS Sans';
+  src: url('https://cdn.jsdelivr.net/npm//fonts/HarmonyOS_Sans_Black_Italic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: block;
+}
+/* base */
+body,
+input,
+button {
+  font-family: 'HarmonyOS Sans', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
