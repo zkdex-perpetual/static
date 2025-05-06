@@ -1,6 +1,6 @@
 # WARNING
 
-## 此项目只能`增加`不能`删除`资源!
+## This project can only `add` resources but not `delete` them!
 
 ### Example
 
