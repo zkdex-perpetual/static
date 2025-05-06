@@ -2,6 +2,8 @@
 
 ## This project only allows **new** resources, not **delete** resources!
 
+> **Important**: Do not easily delete the released version resources (Releases).
+
 ### Example
 
 - Use the CDN address of the npm package:
@@ -12,5 +14,3 @@ https://cdn.jsdelivr.net/npm/[project]@[version][path][file]
 ```text
 https://cdn.jsdelivr.net/gh/zkdex-perpetual/static@0.0.1/styles/reset.css
 ```
-
-> **Important**: Do not easily delete the released version resources (Releases).
